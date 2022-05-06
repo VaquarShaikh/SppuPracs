@@ -227,6 +227,7 @@ class Sdes{
 
 		int[] cipherText = obj.encryption(plaintext);
 		int[] decrypted = obj.decryption(cipherText);
+		// int[] func = obj.function_()
 
 		System.out.println("Your ciphertext is : ");
 		for(int i = 0;i < 8;i++){
